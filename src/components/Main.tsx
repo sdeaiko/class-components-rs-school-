@@ -7,6 +7,8 @@ import { IPokemon } from '../api/pokemonApi';
 import { fetchData, fetchEachPokemon, fetchSelectedPokemon, URL, LIMIT } from '../api/pokemonApi';
 import ErrorButton from './ErrorButton';
 
+import '../index.scss'
+
 interface MainState {
   pokemonData: IPokemon[];
   originalPokemonData: IPokemon[];
